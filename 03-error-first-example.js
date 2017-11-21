@@ -1,4 +1,6 @@
+
 // The Asyncronous Method
+const async = require('async');
 function strictAddition(x, y, callback) {
   if(typeof x !== 'number') {
     callback( new Error('First argument is not a number') );

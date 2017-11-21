@@ -1,0 +1,25 @@
+{
+  "name": "the-node-way",
+  "version": "1.0.0",
+  "description": "![icon](logo.png) the-node-way ==============================================",
+  "main": "01-singleton-example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredKSchott/the-node-way.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredKSchott/the-node-way/issues"
+  },
+  "homepage": "https://github.com/FredKSchott/the-node-way#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "chai": "^4.1.2",
+    "mockery": "^2.1.0",
+    "sinon": "^4.1.2"
+  }
+}
