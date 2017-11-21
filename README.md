@@ -1,24 +1,31 @@
-![icon](logo.png) the-node-way
-==============================================
+##git clone https://github.com/Muthukumars1994/Thenode-way.git
 
-Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications.
+<!-- Meant for Access Specifiers -->
 
-### Introduction
-[What is The Node Way?](http://thenodeway.io/introduction/)
-### Master The Fundamentals
-[Understanding Error-First Callbacks](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)  
-[Testing Essentials](http://fredkschott.com/post/2014/05/nodejs-testing-essentials/)
-### Start Building
-[Designing Singletons](http://fredkschott.com/post/2013/12/node-js-cookbook---designing-singletons/)  
-[Designing Custom Types](http://fredkschott.com/post/2014/01/node-js-cookbook---constructors-and-custom-types/)  
-[Designing Factories](http://fredkschott.com/post/2015/01/the-node-way-designing-factories/)
-### Get Fancy
-[How `require()` Actually Works](http://fredkschott.com/post/2014/06/require-and-the-module-system/)  
-[Dangerous Module Design Patterns](http://fredkschott.com/post/2014/09/nodejs-dangerous-module-design-patterns/)  
+node 01-singleton-example.js
 
----
 
-*Visit __[thenodeway.io](http://thenodeway.io)__ and learn the way.*  
-*All code examples and website updates will be added to this repo. Watch for new posts, articles, and more.*
+Output:
+    Properties --> I am public
+    Toogle1 --> false
+    Toogle2 --> true
+    Addition --> 6
 
-*2016 Copyright [Fred K. Schott](https://twitter.com/FredKSchott). All rights reserved.*
+<!-- Using the constructor -->
+node 02-custom-type-example.js
+    Bob-Id 0
+    JoeId 1
+    bob balance 0
+    Bob balance 99.9
+    Bob Paid false
+    BOb User type Paid User
+    Joe user type Free User
+
+<!--Making our Call back as a Fuction -->
+ node 03-error-first-example.js
+    error First argument is not a number
+    error Second argument is not a number
+    12
+    8
+    { twelve: 12, fiftythree: 53, six: 6 }
+

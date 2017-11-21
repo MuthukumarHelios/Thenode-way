@@ -1,6 +1,8 @@
 
 // The Asyncronous Method
+
 const async = require('async');
+
 function strictAddition(x, y, callback) {
   if(typeof x !== 'number') {
     callback( new Error('First argument is not a number') );
@@ -18,8 +20,8 @@ function strictAddition(x, y, callback) {
 
 // The Callback
 function callback(err, data) {
-  if(err) {
-    console.log(err);
+   if(err) {
+    console.log("error",err.message);
     return;
   }
   console.log(data);
@@ -41,7 +43,7 @@ async.parallel({
 },
 function(err, results) {
   if(err) {
-    console.log(err);
+    console.log(err.message);
     return;
   }
   console.log(results); // {twelve: 12, fiftythree: 53, six: 6}
