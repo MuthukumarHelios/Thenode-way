@@ -1,6 +1,7 @@
 ##git clone https://github.com/Muthukumars1994/Thenode-way.git
 
 <!-- Meant for Access Specifiers -->
+npm install 
 
 node 01-singleton-example.js
 
@@ -28,7 +29,7 @@ node 02-custom-type-example.js
   
     Bob Paid false
   
-    BOb User type Paid User
+    BOb User type Paid Users
   
     Joe user type Free User
 
